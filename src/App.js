@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Login from './Login';
+import Register from './Register';
 
 function App() {
+  const [showLogin, setShowLogin] = useState(true); // State to track which component to show
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {showLogin ? 
+        <Login onRegisterClick={() => setShowLogin(false)} /> : 
+        <Register onLoginClick={() => setShowLogin(true)} />
+      }
     </div>
   );
 }

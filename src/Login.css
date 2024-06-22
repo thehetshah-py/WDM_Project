@@ -1,0 +1,117 @@
+/* Modal Background */
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  /* Modal Content Box */
+  .modal-content {
+    height:80%;
+    width: 100%;
+    max-width: 50%; /* Responsive width */
+    /* margin: 5% auto; */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Flex container for entire modal content */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Logo container */
+  .logo-container {
+    width: 20%;
+    margin: 40px auto 0;
+  }
+  
+  /* Section containing the login form */
+  .login-section {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  /* Welcome message styling */
+  .welcome-text {
+    font-weight: bold;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* General styling for input fields */
+/* General styling for input fields */
+.input-field {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: black;
+    font-style: bold;
+  }
+  
+  .input-field input {
+    padding: 8px 10px;
+    border: none;
+    font-size: 0.8rem;
+    border-bottom: 2px solid #ccc;  /* Only a bottom border */
+    background-color: transparent;  /* Ensures no fill color */
+    outline: none;  /* Removes the default focus outline */
+    transition: border-color 0.3s;  /* Smooth transition for focus */
+  }
+  
+  /* Focus state changes border color */
+  .input-field input:focus {
+    border-bottom: 2px solid #007bff;  /* Highlight with a different color */
+  }
+  
+  
+  /* Styling for button container */
+  .buttongroup{
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+
+  .buttons {
+    width: 30%;
+    margin: 40px auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .modal-content {
+      max-width: 80%; /* Wider modal on smaller screens */
+    }
+  }
+  
