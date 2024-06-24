@@ -1,0 +1,36 @@
+/* Navbar container styling */
+.nav-container {
+    background-color: #2c3e50; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Padding around the content */
+}
+
+/* Unordered list in the navbar */
+.nav-list {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Clears floats */
+    display: flex; /* Aligns links in a row */
+    justify-content: center; /* Centers links horizontally */
+}
+
+/* Individual list items */
+.nav-item {
+    float: left; /* Align items to the left */
+}
+
+/* Links inside list items */
+.nav-link {
+    display: block; /* Block-level - makes the entire area clickable */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Centers text within the link */
+    padding: 14px 16px; /* Padding around text */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+    background-color: #2980b9; /* Lighter blue on hover */
+}

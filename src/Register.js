@@ -1,6 +1,6 @@
 import React from "react";
 import "./Register.css"
-// import CompanyLogo from "./CompanyLogo"; // Ensure you have this component
+import { Link } from 'react-router-dom';
 
 const Register = ({ onLoginClick }) => {
   const handleSubmit = (event) => {
@@ -13,6 +13,7 @@ const Register = ({ onLoginClick }) => {
       id="myModal"
       className="modal-background"
     >
+      
       <div className="modal-content">
         <div className="flex-container">
           <div className="login-section">
@@ -45,7 +46,7 @@ const Register = ({ onLoginClick }) => {
                 </div>
                 <div className="buttons extra">
                     
-                Already a user?<div className="link-button" onClick={onLoginClick}> Login</div>
+                Already a user?<div className="link-button" onClick={onLoginClick}> <Link to="/">Login</Link></div>
                 </div>
                 </div>
             </form>

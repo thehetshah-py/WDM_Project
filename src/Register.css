@@ -4,15 +4,15 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    /* top: 0; */
-    /* left: 0; */
+    top: 0;
+    left: 0;
     z-index: 1;
   }
   
   /* Modal Content Box */
   .modal-content {
-    padding: 2%;
-    height: 70%;
+    /* padding: 2%; */
+    height: 80%;
     width: 100%;
     max-width: 50%; /* Responsive width */
     margin: 5% auto;
@@ -27,7 +27,19 @@
     flex-direction: column;
     height: 100%;
   }
-   
+  
+  /* Logo container */
+  .logo-container {
+    width: 20%;
+    margin: 40px auto 0;
+  }
+  
+  /* Section containing the login form */
+  .login-section {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
   /* Welcome message styling */
   .welcome-text {
     font-weight: bold;
@@ -72,7 +84,7 @@
   /* Styling for button container */
   .buttongroup{
     display: flex;
-    width: 80%;
+    width: 70%;
   }
 
   .buttons {
@@ -117,10 +129,10 @@
   
   .link-button:hover, .link-button:focus {
     color: #0056b3;  /* Darker blue on hover/focus for visual feedback */
-    text-decoration: none;  /* Optional: remove underline on hover/focus */
+    text-decoration: none;  
+    /* Optional: remove underline on hover/focus */
   }
   
   .extra{
     margin: auto 0;
   }
-  
