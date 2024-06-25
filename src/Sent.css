@@ -1,0 +1,67 @@
+/* General styling for the email table */
+.email-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .email-table th,
+  .email-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .email-table th {
+    text-align: left;
+    background-color: #f4f4f4;
+  }
+  
+  .email-table tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Email detail styling */
+  .email-detail {
+    margin: 10px 0;
+  }
+  
+  .email-detail label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .email-detail p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  /* Read-only email view */
+  .email-view {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .email-view h2 {
+    margin-top: 0;
+  }
+  
+  .email-view .email-detail {
+    margin-bottom: 10px;
+  }
+  
+  .email-view .email-detail label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .email-view .email-detail p {
+    margin: 5px 0 0 0;
+  }
+  

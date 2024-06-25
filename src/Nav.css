@@ -1,36 +1,101 @@
-/* Navbar container styling */
+/* Nav.css */
 .nav-container {
-    background-color: #2c3e50; /* Dark blue background */
-    color: #ffffff; /* White text color */
-    padding: 10px 20px; /* Padding around the content */
-}
-
-/* Unordered list in the navbar */
-.nav-list {
-    list-style-type: none; /* Remove default list styling */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow: hidden; /* Clears floats */
-    display: flex; /* Aligns links in a row */
-    justify-content: center; /* Centers links horizontally */
-}
-
-/* Individual list items */
-.nav-item {
-    float: left; /* Align items to the left */
-}
-
-/* Links inside list items */
-.nav-link {
-    display: block; /* Block-level - makes the entire area clickable */
-    color: #ffffff; /* White text color */
-    text-align: center; /* Centers text within the link */
-    padding: 14px 16px; /* Padding around text */
-    text-decoration: none; /* Remove underline from links */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-/* Hover effect for links */
-.nav-link:hover {
-    background-color: #2980b9; /* Lighter blue on hover */
-}
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-link {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #2980b9;
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+  }
+  
+  .main-content {
+    display: flex;
+    margin-top: 20px; /* Adjust as needed to provide space for the navbar */
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 67px; /* Ensure it starts below the navbar */
+  }
+  
+  .sidebar-link {
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .sidebar-link.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .page-content {
+    margin-left: 200px;
+    padding: 20px;
+    width: calc(100% - 200px);
+  }
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .email-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .email-table th,
+  .email-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .email-table tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  

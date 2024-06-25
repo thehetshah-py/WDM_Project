@@ -1,0 +1,65 @@
+.compose-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compose-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .compose-form label {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .compose-form input,
+  .compose-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .compose-form textarea {
+    height: 200px;
+    resize: none;
+  }
+  
+  .compose-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .compose-actions button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .compose-actions button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .compose-actions button[type="button"]:first-of-type {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .compose-actions button[type="button"]:nth-of-type(2) {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .compose-actions button[type="button"]:last-of-type {
+    background-color: #d9534f;
+    color: white;
+  }
+  

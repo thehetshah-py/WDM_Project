@@ -1,0 +1,91 @@
+/* General styling for the email table */
+.email-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .email-table th,
+  .email-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .email-table th {
+    text-align: left;
+    background-color: #f4f4f4;
+  }
+  
+  .email-table tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Email detail styling */
+  .email-detail {
+    margin: 10px 0;
+  }
+  
+  .email-detail label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .email-detail input,
+  .email-detail textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Editable email view */
+  .email-edit {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .email-edit h2 {
+    margin-top: 0;
+  }
+  
+  .email-edit .email-detail {
+    margin-bottom: 10px;
+  }
+  
+  .email-edit .email-detail label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .email-edit .email-detail input,
+  .email-edit .email-detail textarea {
+    margin-top: 5px;
+  }
+  
+  .email-edit .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .email-edit .button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .email-edit .button-group button:hover {
+    background-color: #0056b3;
+  }
+  
