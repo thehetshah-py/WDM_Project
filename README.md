@@ -6,6 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all the node modules required for the application. Important to run this before running the application.
+
+### 'Link to the application'
+Follow the link to get to the application: http://hvs8499.uta.cloud
+
+### `login Credentials`
+Find the login credentials to access all the features of the application: 
+Email: test@gmail.com
+Password: test123
+
+### `Access to the blog`
+To access the blog, you will have to browse to "About" page of the application. We have hyperlinked the text blog which will redirect to the blog. 
+
 ### `npm start`
 
 Runs the app in the development mode.\
