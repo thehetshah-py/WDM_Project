@@ -17,6 +17,7 @@ const About = () => {
             <p>
                 Thank you for choosing us. We look forward to a successful journey together!
             </p>
+            <p>To stay updated with the latest news and insights from our team, check out our <a href = "https://mxn0023.uta.cloud/">blog</a>.</p>
         </div>
   )
 }
